@@ -1,0 +1,23 @@
+@charset "UTF-08";
+
+body {
+    font-family: Helvetica, Arial;
+    background-color: rgba(124, 141, 179, 0.829);
+    background-image: url('atari.jpg');
+    background-size: cover; /* para cobrir todo o corpo */
+    background-repeat: no-repeat; /* para não repetir a imagem */
+    align-items: center;
+    justify-content: center;
+    /*display: flex;*/
+
+}
+
+h1{
+    font-size: 2.5em;
+
+}
+canvas{
+    border: 5px solid rgb(255, 255, 255);
+    background-color: black ;
+
+}
