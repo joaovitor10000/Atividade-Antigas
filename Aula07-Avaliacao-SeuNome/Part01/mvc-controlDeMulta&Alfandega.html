@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <!-- <link rel="stylesheet" href="mq-estilo.css">-->
+
+    <link rel="shortcut icon" href="opsz24.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title> Alfândega </title>
+
+</head>
+
+<body>
+    <main>
+
+        <section id="login">
+            <div id="imagem"></div>
+            <div id="formulario">
+
+                <h1>Bem-Vindo ao Controle Alfândega</h1>
+
+
+                <p>Seja muito Bem-Vindo à Alfândega! Estamos aqui para ajudá-lo com suas necessidades.</p>
+
+                <label for="nome">Por favor insira o seu Nome(a):</label><br>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome"><br>
+
+                <label for="nacionalidade">Sua Nacionalidade:</label><br>
+                <select id="nacionalidade">
+
+                    <option value="br">Brasileiro</option>
+                    <option value="us">Americano</option>
+                    <option value="fr">Francês</option>
+                    <option value="de">Alemão</option>
+                    <option value="it">Italiano</option>
+
+                </select>
+                <br>
+                <input type="button" value="Enviar" onclick="calcular()">
+
+                <div id="resp"> </div>
+
+                <script>
+                    function calcular() {
+                        var nome = document.querySelector('input#nome').value;
+                        var nacionalidade = document.querySelector('select#nacionalidade').value;
+                        var resp = document.querySelector('div#resp');
+
+                        resp.innerHTML = `<p>Seja muito bem-vindo(a) ao Alfandega, ${nome}!`;
+
+                        if (nacionalidade === "br") {
+                            resp.innerHTML += ` Você é brasileiro(a)!</p>`;
+                        } else if (nacionalidade === "us") {
+                            resp.innerHTML += ` Você é um extrangeiro(a)!</p>`;
+                        } else if (nacionalidade === "fr") {
+                            resp.innerHTML += ` Você é um extrangeiro(a)!</p>`;
+                        } else if (nacionalidade === "de") {
+                            resp.innerHTML += ` Você é um extrangeiro(a)!</p>`;
+                        } else if (nacionalidade === "it") {
+                            resp.innerHTML += ` Você é um extrangeiro(a)!</p>`;
+                        } else {
+                            resp.innerHTML += `</p>`;
+                        }
+                    }
+
+                </script>
+        </section>
+    </main>
+</body>
+
+</html>
