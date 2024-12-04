@@ -1,0 +1,239 @@
+<html lang="en">
+<head>
+<script type="text/javascript">
+
+function validateForm() {
+  let x = document.forms["FORM1"]["senha"].value;
+  if (x == "") {
+    alert("o campo nao pode ser em branco");
+    return false;
+  }
+  var nome;
+nome=prompt("Qual seu nome?");
+idade=prompt("Qual sua idade?")
+if(idade<=17)
+{
+alert(nome+"  Você nao pode usar este site, conteuto sexual!!!"+"  voce so tem+idade");
+}
+else
+{
+alert(nome+" Divirta-se,conteudo Sexual!!!");	
+}
+</script>
+</head>
+<body>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color:#737373;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  {
+  background-color: #737373;
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #737373;
+}
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background:#737373;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #737373;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #737373;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a.active {
+  background-color: #737373;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #737373;
+  color: white;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #808080;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  {
+
+ 
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+  
+}
+</style>
+</head>
+<body>
+<header>
+  <h2><div class="topblue">
+            <div class="topblue">
+                <div id="logo"><img style="width:15%;"  src="C:\Users\aluno\Downloads\logo3.jpg"  alt="Concessionária ViaRio S/A"></div>
+        </header>
+        </h2>
+		
+</header>
+<section>
+  <nav>
+    <ul>
+  <li><a href="/Users/aluno/Desktop/Primeiratabela.html">Página 1</a></li>
+  <li><a href="/Users/aluno/desktop/FORMULARIO.html">Página 2</a></li>
+  <li><a href="/Users/aluno/desktop/veiculo.html">Página 3</a></li>
+  <li><a class="menuitem"> <a href="/Users/aluno/Desktop/layout.html">Voltar</a></div>
+  </ul>
+  
+				<button onclick="document.getElementById('myImage').src='C:\Users\aluno\Downloads\pic_bulbon.gif ">Ligar</button>
+
+                <img id="myImage" src="C:\Users\aluno\Downloads\pic_bulboff.gif" style="width:100px">
+				
+                <button onclick="document.getElementById('myImage').src='C:\Users\aluno\Downloads\pic_bulboff.gif ">Desligar</button> 
+    </ul>
+  </nav>
+  <form>
+  <article>
+  
+  <form name="form1"  onsubmit="return validateForm()" method="post">
+ 
+  
+                     
+                 <span>
+                   <input type="text" class="input-slide" id="nome" name="nome" placeholder="Nome:" autocomplete="off" required=""/>
+                   <label for="nome"> <i class="icon icon-user-outline"></i> </label> 
+				   <span>
+                   <input type="text" class="input-slide" id="nome" name="nome" placeholder="Sobrenome:" autocomplete="off" required=""/>
+                   <label for="nome"> <i class="icon icon-user-outline"></i> </label><br>
+                 <span>
+                    <input type="text" class="input-slide" id="email" name="email" placeholder="E-mail:" autocomplete="off" required=""/>
+                    <label for="email"> <i class="icon icon-mail-3"></i> </label><br>
+			     <span>
+                    <input type="password"  class="input-slide" id="senha" name="senha" placeholder="Senha:" autocomplete="off" required=""/>
+                    <label for="assunto"> <i class="icon icon-help"></i> </label><br>
+                 <span>
+                   <input type="text" class="input-slide" id="nome" name="nome" placeholder="Telefone:" autocomplete="off" required=""/>
+                   <label for="nome"> <i class="icon icon-user-outline"></i> </label>
+				   <p> 
+				   
+				   
+				  
+				   
+				  <p><b> Data De Nascimento:<input type="date" nome="nascimento" min=01-01-1950" max="19-06-2023"></b></p>
+				  <p>
+				  <p><b> Que Zona Você mora?</b></p>
+                  <input type="checkbox" name="generofilme" value="1"> Sul
+                  <input type="checkbox" name="generofilme" value="2"> Norte
+                  <input type="checkbox" name="generofilme" value="3"> Leste
+                  <input type="checkbox" name="generofilme" value="4"> Oeste
+                  <input type="checkbox" name="generofilme" value="5"> Sudeste
+                  <p>
+				  <p><b>Selecione Um ou varios gênero :</b></p>
+                  <input type="checkbox" name="generofilme" value="1"> Ação
+                  <input type="checkbox" name="generofilme" value="2"> Aventura
+				  <input type="checkbox" name="generofilme" value="3"> Comedia
+				  <input type="checkbox" name="generofilme" value="4"> Fantasia
+				  <input type="checkbox" name="generofilme" value="5"> Ficção
+                  <p>
+				  
+				  <input type="submit" value="Enviar">
+				  <p></br>
+				
+				
+				
+  
+                     </article>
+                     </section>
+					 <footer>
+					

@@ -1,0 +1,101 @@
+  <html>
+  <head>
+  <script type="text/javascript">
+
+function hello()
+{
+confirm("Deseja proseguir,se for menor de idade avisarei seus pais !!!");
+}						   
+var nome;
+nome=prompt("Qual seu nome?");
+idade=prompt("Qual sua idade?")
+if(idade<=17)
+{
+alert(nome+" , Voce Nao Pode Usar Este Site, Conteuto Sexual !!!"+"  Voce é De Menor");
+}
+else
+{
+alert(nome+" , Divirta-se, Conteudo Sexual !!!");	
+}  
+</script>
+   </head>
+     <body>
+	 <form>
+		 <fieldset>
+		 <legend> Dados Pessais </legend>
+		 <table cellspacing="10">
+		 <tr>
+		 <td>
+		 <label for="nome"> Nome: </label>
+		 </td>
+		 <td align ="left">
+		 <input type ="text" name="email">
+		 </td>
+		 <td>
+		 
+		 <label for ="sobrenome"> Sobrenome: </label>
+		 </td>
+		 <td align ="left">
+		 <input type ="text" name="sobrenome">
+		 </td>
+		 </tr>
+		 <td>
+		 <label> Nascimento: </label>
+		 </td>
+		 <td align ="left">
+		 <input type="date" nome="nascimento" min="01-01-1950&quot;" max="19-06-2023">
+		 </td>
+		 <tr>
+		 <td>
+		 <label for="rg"> RG: </label>
+		 </td>
+		 <td align ="left">
+		 <input type ="text"name ="rg" size="13" maxlength="13">
+		 </td>
+		 <tr>
+		 <td>
+		 <label> CBF :</label>
+		 </td>
+		 <td align ="left">
+		 <input type ="text"name="cbf" size="9" maxlength="9"> - <input type ="text" name ="cbf2" size ="2" maxlength="2">
+         </td>
+		 <td align="left">
+		 Estado: <select name="estado">
+		 <option value="aa"> </option>
+		 <option value="DF"> Brasilia </option>
+		 <option value="SP"> São Paulo </option>
+		 <option value="RG"> Rio De janeiro </option>
+		 <option value="BA"> Bahia </option>
+		 <option value="TO"> Tocantis </option>
+		 <option value="ES"> Espírido Santo </option>
+		 <option value="AP"> Amapá</option>
+		 <option value="AC"> Acre </option>
+		 <option value="PI"> Piauí </option>
+		 </select>
+		 </td>
+		 <td align ="left">
+		 Senha: <input type="password" name="senha">
+		 </td>
+         </tr>
+         </table>
+         </fieldset>
+		
+		 
+	   </form>
+      </body>
+     </html>
+		  
+		  
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
