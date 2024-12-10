@@ -1,0 +1,100 @@
+  <html>
+  <head>
+  </head>
+  <style>
+body {
+  background-color:#F09B59 ;
+}
+</style>
+
+  <body>
+
+  <fieldset>
+  <h1> REMENTE </h1>
+  <table cellspacing="10">
+	   <form action="php 2.php" method="post">
+	    <tr>
+		 <td>
+		 <label for="rg"><h3> NOME: </h3></label>
+		 </td>
+		 <td align ="left">
+		<input type ="text" name="nome" size="40" maxlength="40"> <?php echo $nome;?>
+		 </td>
+	    </tr>
+		<TR>
+		 <td>
+		 <P>
+		 <label for="rg"> <h3> ENDEREÇO: </h3></label>
+		 </td>
+		 <td align ="left">
+		<input type ="text" name="ender" size="40" maxlength="40">  <?php echo $ender;?>
+		 </td>
+		 </tr>
+		 <tr>
+		 <td>
+		 <P>
+		 <tr>
+		 <td>
+		 <label for="nome"> <h3> CIDADE: </h3> </label>
+		 </td>
+		 <td align ="left">
+		 <input type ="text" name="cidad" size="40" maxlength="40">  <?php echo $cidad;?>
+		 </td>
+		 <td>
+		 <label for ="sobrenome"> <h3> UF:</h3> </label>
+		 </td>
+		 <td align ="left">
+		 <input type ="text" name="uf" size="40" maxlength="40">  <?php echo $uf;?>
+		 </td>
+		 </tr>
+		 <td>
+		 <p>
+		 <tr>
+		 <p>
+		 <td>
+		 <label for="nome"> <h3> CEP:</h3> </label>
+		 </td>
+		 <td align ="left">
+		<input type ="text" name="cep" size="40" maxlength="40">  <?php echo $cep;?>
+		 </td>
+		 <td>
+		 <label for ="sobrenome"> <h3> CPF/CNPJ: </h3> </label>
+		 </td>
+		 <td align ="left">
+		<input type ="text" name="cpf/cnpj" size="40" maxlength="40">  <?php echo $cpf/cnpj;?>
+		 </td>
+		 </tr>
+		 <td>
+		 <p>
+		  <label for="rg"> <h3> QUAL O PESO? </h3></label>
+		 </td>
+		 <td align ="left">
+		<input type ="text" name="qpeso" size="40" maxlength="40">  <?php echo $qpeso;?>
+		 </td>
+		 </tr>
+		 <tr>
+		 <td>
+		 <p>
+		  <label for="rg"> <h3> QUAL O VALOR DO PESO? </h3></label>
+		 </td>
+		 <td align ="left">
+		<input type ="text" name="valpeso" size="40" maxlength="40">  <?php echo $valpeso;?>
+		 </td>
+		 </tr>
+		 <tr>
+		 <td>
+		 <p>
+		  <label for="rg"> <h3> QUANTOS PACOTES? </h3></label>
+		 </td>
+		 <td align ="left">
+		<input type ="text" name="qpacot" size="40" maxlength="40">  <?php echo $qpacot;?>
+		 </td>
+		 </tr>
+		 <tr>
+		 <td>
+		 <p>
+		 <input type="submit" value="Calcular">
+         <input type ="reset" value="limpar">
+  </form>
+  </body>
+ </html>
